@@ -21,7 +21,7 @@ export const Router = memo((props: any) => {
           }
         />
         <Route
-          path="user_measurement"
+          path="user_management"
           element={
             <HeaderLayout>
               <UserManagement />
