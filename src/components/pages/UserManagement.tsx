@@ -52,6 +52,7 @@ export const UserManagement = memo((props: any) => {
             user={selectedUser}
             isOpen={isOpen}
             onClose={onClose}
+            isAdmin={loginUser?.isAdmin}
           />
         </>
       )}
